@@ -1,0 +1,192 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+i {
+  padding-right: 0.5rem;
+}
+/* Heading section */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+/* Navbar section */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Title section */
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+/* Button section */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  right: 20%;
+  position: absolute;
+}
+
+
+/* Features section */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-description {
+  color: #8f8f8f;
+  font-size: 0.9rem;
+}
+
+.feature-icon {
+  color: #ef8172;
+  padding: 0 0 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing section */
+.pricing-cards {
+  padding-top: 5%;
+}
+
+.price-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-card-items {
+  margin-bottom: 3%;
+}
+.mb-6 {
+  margin-bottom: 4rem;
+}
+
+
+/* Footer section */
+#footer .container-fluid {
+  padding: 3% 15%;
+}
+
+.copyright {
+  color: #a6a6a6;
+  font-size: 0.8rem;
+  /* padding: 3% 0 0; */
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title .container-fluid {
+    text-align: center;
+  }
+  .title-image {
+    padding: 5% 0;
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 1237px) {
+  .price-text {
+    font-size: 2rem;
+  }
+}
